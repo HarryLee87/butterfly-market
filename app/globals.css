@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+ a {
+  @apply text-sky-500;
+  /* hover:underline underline-offset-4; */
+ }
+}
+
+@layer components {
+ .primary-btn {
+  @apply w-full bg-sky-500 text-white rounded-md text-center hover:bg-sky-400 transition-colors;
+ }
+}
+
+/* @layer utilities {
+ .text-bigger-hello {
+  @apply text-3xl font-semibold;
+ }
+}
+
+@layer components {
+ .btn {
+  @apply w-full bg-black h-10 text-white rounded-sm mt-2;
+ }
+} */
+
+/* make common styled button for every button. (className="base-button") */
+/* .base-button {
+ @apply w-full bg-black h-10 text-white rounded-sm mt-2;
+} */
